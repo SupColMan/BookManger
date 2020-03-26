@@ -1,0 +1,5 @@
+contextsDir=/Users/apple/Library/Tomcat/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=/Users/apple/Library/Tomcat/conf/server.xml
+tomcatDir=/Users/apple/Library/Tomcat
+tomcatVersion=tomcatV9

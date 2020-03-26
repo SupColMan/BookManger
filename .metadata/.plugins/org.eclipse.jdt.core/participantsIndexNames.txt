@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+/Users/apple/Desktop/html+数据库/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1053619272.index
+/Test2/src
+/Users/apple/Desktop/html+数据库/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3207462318.index
+/Test1/src

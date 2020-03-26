@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome</title>
+<link rel="stylesheet" type="text/css" href=""WebContent/WEB-INF/test1.css"" >
+<link rel="icon" href=""WebContent/WEB-INF/images/logo_main.png"">
+</head>
+<body>
+<form action="/Test1/PurchaseServlet" method="post">
+<div class="bg">
+    <img src=""WebContent/WEB-INF/images/log-bg.jpg"">
+</div>
+<div class="login_title">
+    <h1>图书管理系统</h1>
+</div>
+<div class="login_bg">
+    <div class="login_bg_title">
+    </div>
+    <div class="login_bg_icon">
+        <img src=""WebContent/WEB-INF/images/logoDA.png"">
+    </div>
+    <div class="login_bg_form">
+        <form>
+            <div class="login_email">
+                <label class="contact">账号：</label>
+                <input type="text" name="user" class="contact_input" id="quickclearcontent" required="required" placeholder="&nbsp填写账号" autofocus="autofocus"/>
+            </div>
+            <div class="login_password">
+                <label class="contact">密码：</label>
+                <input type="password" name="password" class="contact_input" required="required" placeholder="&nbsp填写密码"/>
+            </div>
+            <div class="login_register">
+                <a href="register.html">没有账号？&nbsp点击注册>>></a>
+            </div>
+            <div class="login_submit">
+                <button class="send">登录</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

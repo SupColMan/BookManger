@@ -1,0 +1,137 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+div{
+    display: block;
+}
+
+.bg{
+    position:absolute;
+    z-index: -1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%
+}
+.bg>img{
+    width: 100%;
+    height: 100%;
+}
+.login_title{
+    position: relative;
+    height:100px;
+    color: #ffffff;
+    /*border: 1px solid #000000;*/
+}
+.login_title>h1{
+    text-align: center;
+    line-height: 200px;
+}
+.login_bg{
+    position: relative;
+    width: 550px;
+    margin: 100px auto ;
+    border-radius: 15px ;
+    box-shadow: 5px 10px 20px -1px rgba(0,0,0,0.5);
+    /*border: 1px solid white;*/
+}
+.login_bg_title{
+    position: relative;
+    width: 550px;
+    height: 32px;
+    margin: 0 auto;
+    background: #7c7c7c;
+    /*opacity: 0.7;*/
+    border-radius: 15px 15px 0 0;
+}
+.login_bg_title>img{
+    position: relative;
+    display: block;
+    float: right;
+    right: 5px;
+    cursor: pointer;
+}
+.login_bg_icon{
+    position: relative;
+    width: 550px;
+    height: 150px;
+
+    background: #303030;
+    /*opacity: 0.7;*/
+}
+.login_bg_icon>img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    zoom: .1;
+    top: 100px;
+}
+.login_bg_form{
+     position: relative;
+     width: 550px;
+     background: #303030;
+     border-radius: 0 0 15px 15px;
+     /*opacity: 0.7;*/
+     color: #ffffff;
+ }
+.login_email,.login_password{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-family: "STHeiti";
+    text-align: center;
+}
+.contact_input{
+    border-radius: 15px;
+}
+.clear_content{
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+    top: 50%;
+    margin-top: -6.5px;
+    height: 16px;
+    width: 16px;
+    background: #ffffff url("../images/cross3 .png") no-repeat;
+    cursor: pointer;
+}
+.login_register{
+    position: relative;
+    height: 15px;
+    float: right;
+    font-size: 15px;
+    right: 5px;
+}
+.login_register>a{
+    color: #ffffff;
+}
+.login_submit{
+    position: relative;
+    height: 50px;
+    margin-top: 25px;
+    /*background: #00FF7F;*/
+    /*border-radius: 0 0 15px 15px;*/
+}
+.send{
+    position: relative;
+    width: 550px;
+    height: 50px;
+    /*background: #00FF7F;*/
+    background:#87CEFF;
+    border-radius: 0 0 15px 15px;
+    font-size: 40px;
+    font-family: "FangSong";
+    font-weight: bold;
+    line-height: 50px;
+    cursor: pointer;
+}
+.send:hover{
+    opacity: .9;
+}
+.send:active{
+    opacity: 0.5;
+}
